@@ -1,0 +1,16 @@
+{
+  "name": "prime-video-episodes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/main.js",
+  "scripts": {
+    "build": "tsc && bookmarklet ./build/main.js ./build/bookmarklet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bookmarklet": "^3.0.0",
+    "typescript": "^4.3.5"
+  }
+}
