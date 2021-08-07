@@ -2,7 +2,7 @@
 
 ![image](./assets/image.png)
 
-A bookmarklet to get the episode title and synopsis on the series page of amazon prime video.
+A bookmarklet to get the episode title and synopsis on a series page of amazon prime video.
 
 You can get the info in following markdown format:
 
@@ -21,3 +21,7 @@ You can get the info in following markdown format:
 ```
 
 Output formatting can be modified by editing `template()` function in `main.ts`. In that case, run `npm run build` to rebuild the bookmarklet.
+
+## Usage
+
+Create a new bookmark on your browser and set its URL to the content of [prime-video-episodes](./build/prime-video-episodes). Then run it on the series detail page.
