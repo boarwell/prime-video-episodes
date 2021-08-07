@@ -4,7 +4,7 @@
   "description": "A bookmarklet to get the episode title and synopsis on the series page of amazon prime video.",
   "main": "./build/main.js",
   "scripts": {
-    "build": "tsc && bookmarklet ./build/main.js ./build/bookmarklet"
+    "build": "tsc && bookmarklet ./build/main.js ./build/prime-video-episodes"
   },
   "author": "boarwell",
   "license": "MIT",
